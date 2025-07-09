@@ -1,8 +1,10 @@
 import './index.css'
-
+import { BasicForm } from './components/BasicForm'
 // rafc
 export const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <BasicForm />
+    </div>
   )
 }
