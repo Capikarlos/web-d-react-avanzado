@@ -77,6 +77,18 @@ app.get('/api/peliculas/comedia/:pais', (req, res) => {
   res.send(resultados)
 })
 
+app.use(express.json()) // Middleware para parsear el cuerpo de las peticiones en formato JSON
+// Ruta para crear una nueva pelicula
+app.post('/api/peliculas', (req, res) => {
+  const nuevaPelicula = req.body
+
+  console.log(nuevaPelicula)
+  res.status(201).send({
+    message: 'Pelicula creada exitosamente',
+    datos: nuevaPelicula
+  })
+})
+
 app.listen(PORT, () => {
   console.log(`Servidor corriendo en http://localhost:${PORT}`)
 })
