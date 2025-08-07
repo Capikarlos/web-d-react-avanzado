@@ -1,0 +1,22 @@
+
+GET /peliculas HTTP/1.1
+Host: localhost:3000
+// GET http://localhost:3000/peliculas HTTP/1.1
+
+###
+
+GET /peliculas/3 HTTP/1.1
+Host: localhost:3000
+
+###
+
+POST /peliculas HTTP/1.1
+Host: localhost:3000
+Content-Type: application/json
+
+{
+  "titulo": "Inception",
+  "director": "Christopher Nolan",
+  "year": 2010,
+  "pais": "USA"
+}   
