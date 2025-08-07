@@ -78,7 +78,20 @@ app.post('/peliculas', (req, res) => {
   }
 })
 
+app.put('/peliculas/:id', (req, res) => {
+  const data = readData()
+  const id = parseInt(req.params.id)
+  const body = req.body
 
+  const index = data.accion.findIndex(pelicula => pelicula.id === id)
+  if (index !== -1) {
+    data.accion[index] = { ...data.accion[index], ...body }
+    writeData(data)
+    res.json({ message: 'Pelicula actualizada', pelicula: data.accion[index] })
+  } else {
+    res.status(404).send('Pelicula no encontrada')
+  }
+})
 
 app.listen(PORT, () => {
   console.log(`Servidor escuchando en el puerto ${PORT} \nhttp://localhost:${PORT}`)

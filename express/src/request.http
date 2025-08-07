@@ -20,3 +20,15 @@ Content-Type: application/json
   "year": 2010,
   "pais": "USA"
 }   
+
+###
+PUT /peliculas/4 HTTP/1.1
+Host: localhost:3000
+Content-Type: application/json
+
+{
+  "titulo": "lololo",
+  "director": "Christopher Nolan",
+  "year": 2010,
+  "pais": "USA"
+}

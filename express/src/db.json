@@ -1,1 +1,62 @@
-{"accion":[{"id":1,"titulo":"Misión Imposible","director":"Christopher McQuarrie","year":2015,"pais":"usa"},{"id":3,"titulo":"Mad Max: Furia en el camino","director":"George Miller","year":2015,"pais":"usa"},{"id":5,"titulo":"Back to the Future","director":"Maty MCFly","year":1985,"pais":"usa"},{"id":4,"titulo":"Inception","director":"Christopher Nolan","year":2010,"pais":"USA"},{"id":5,"titulo":"Inception","director":"Christopher Nolan","year":2010,"pais":"USA"}],"drama":[{"id":1,"titulo":"En busca de la felicidad","director":"Gabriele Muccino","year":2006,"pais":"mexico"},{"id":2,"titulo":"El Padrino","director":"Francis Ford Coppola","year":1972,"pais":"mexico"},{"id":3,"titulo":"La lista de Schindler","director":"Steven Spielberg","year":1993,"pais":"mexico"}]}
+{
+  "accion": [
+    {
+      "id": 1,
+      "titulo": "Misión Imposible",
+      "director": "Christopher McQuarrie",
+      "year": 2015,
+      "pais": "usa"
+    },
+    {
+      "id": 3,
+      "titulo": "Mad Max: Furia en el camino",
+      "director": "George Miller",
+      "year": 2015,
+      "pais": "usa"
+    },
+    {
+      "id": 5,
+      "titulo": "Back to the Future",
+      "director": "Maty MCFly",
+      "year": 1985,
+      "pais": "usa"
+    },
+    {
+      "id": 4,
+      "titulo": "lololo",
+      "director": "Christopher Nolan",
+      "year": 2010,
+      "pais": "USA"
+    },
+    {
+      "id": 5,
+      "titulo": "Inception",
+      "director": "Christopher Nolan",
+      "year": 2010,
+      "pais": "USA"
+    }
+  ],
+  "drama": [
+    {
+      "id": 1,
+      "titulo": "En busca de la felicidad",
+      "director": "Gabriele Muccino",
+      "year": 2006,
+      "pais": "mexico"
+    },
+    {
+      "id": 2,
+      "titulo": "El Padrino",
+      "director": "Francis Ford Coppola",
+      "year": 1972,
+      "pais": "mexico"
+    },
+    {
+      "id": 3,
+      "titulo": "La lista de Schindler",
+      "director": "Steven Spielberg",
+      "year": 1993,
+      "pais": "mexico"
+    }
+  ]
+}
