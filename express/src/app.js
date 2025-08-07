@@ -93,6 +93,19 @@ app.put('/peliculas/:id', (req, res) => {
   }
 })
 
+app.delete('/peliculas/:id', (req, res) => {
+  const data = readData()
+  const id = parseInt(req.params.id)
+  const index = data.accion.findIndex(pelicula => pelicula.id === id)
+  if (index !== -1) {
+    data.accion.splice(index, 1)
+    writeData(data)
+    res.json({ message: 'Pelicula eliminada' })
+  } else {
+    res.status(404).send('Pelicula no encontrada')
+  }
+})
+
 app.listen(PORT, () => {
   console.log(`Servidor escuchando en el puerto ${PORT} \nhttp://localhost:${PORT}`)
 })

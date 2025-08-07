@@ -16,20 +16,6 @@
     },
     {
       "id": 5,
-      "titulo": "Back to the Future",
-      "director": "Maty MCFly",
-      "year": 1985,
-      "pais": "usa"
-    },
-    {
-      "id": 4,
-      "titulo": "lololo",
-      "director": "Christopher Nolan",
-      "year": 2010,
-      "pais": "USA"
-    },
-    {
-      "id": 5,
       "titulo": "Inception",
       "director": "Christopher Nolan",
       "year": 2010,

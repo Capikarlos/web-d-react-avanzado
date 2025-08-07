@@ -32,3 +32,6 @@ Content-Type: application/json
   "year": 2010,
   "pais": "USA"
 }
+###
+DELETE /peliculas/5 HTTP/1.1
+Host: localhost:3000
